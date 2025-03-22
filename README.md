@@ -40,6 +40,13 @@
 **Describe:**
 We created a machine learning model for The Women in Data Science Datathon 2025 Kaggle competition that we participated in through the Break Through Tech AI Program. The objective of the challenge is to create a model that can predict whether a person has ADHD and if they are female. In real life, women with ADHD often go undiagnosed for a long time and addressing this problem can bring more attention to it and people thinking about this in the world. Our model aims to help solve this problem and make it easier for women with ADHD to be diagnosed.
 
+Data Science Skills Developed:
+Data cleaning and preprocessing for model development and analysis
+Understanding correlations
+Regression model selection (statistical, machine learning)
+Regression model fitting/testing (cross validation, avoiding over/underfitting, stratification of data during training)
+Explaining factors that drive the performance of the model
+Multi-outcome prediction
 ---
 
 ## **📊 Data Exploration**
