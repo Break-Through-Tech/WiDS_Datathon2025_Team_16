@@ -75,10 +75,10 @@ Data Science Skills Developed:
 * socio-demographic, emotions, and parenting information
 
 **Data exploration and preprocessing approaches**
-- 
+- ABCD
 
 **Challenges and assumptions when working with the dataset(s)**
--
+- ABCD
 
 **Potential visualizations to include:**
 
