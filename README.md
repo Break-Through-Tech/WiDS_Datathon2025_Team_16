@@ -37,7 +37,6 @@
 
 ## **🏗️ Project Overview**
 
-**Describe:**
 We created a machine learning model for The Women in Data Science Datathon 2025 Kaggle competition that we participated in through the Break Through Tech AI Program. The objective of the challenge is to create a model that can predict whether a person has ADHD and if they are female. In real life, women with ADHD often go undiagnosed for a long time and addressing this problem can bring more attention to it and people thinking about this in the world. Our model aims to help solve this problem and make it easier for women with ADHD to be diagnosed.
 
 Data Science Skills Developed:
@@ -51,11 +50,22 @@ Data Science Skills Developed:
 
 ## **📊 Data Exploration**
 
-**Describe:**
+**Dataset Folders**
+1. the training folder *train_tsv* consists of three types of information about the 1,200+ subjects. They are:
+  * the targets (ADHD diagnosis and sex)
+  * functional MRI connectome matrices
+  * socio-demographic information, e.g., subject’s “handedness” or “parent’s education level”, emotions (“Strength and Difficulties Questionnaire”), and parenting information (“Alabama Parenting Questionnaire”). These include both quantitative and categorical metadata.
 
-* The dataset(s) used (i.e., the data provided in Kaggle \+ any additional sources)
-* Data exploration and preprocessing approaches
-* Challenges and assumptions when working with the dataset(s)
+2. the test folder *test_tsv* consists of unseen data frames for 300+ subjects. These data frames are as follows:
+
+* functional MRI connectome matrices
+* socio-demographic, emotions, and parenting information
+
+**Data exploration and preprocessing approaches**
+- 
+
+**Challenges and assumptions when working with the dataset(s)**
+-
 
 **Potential visualizations to include:**
 
