@@ -6,7 +6,7 @@
 | ----- | ----- | ----- |
 | Khushi Sinha | @khushi2012 | Built CNN model, performed data augmentation |
 | Simran Prajapati | @sim-ran-p | Led EDA, visualized dataset distributions, handled missing data |
-| Tuba Siddiqui | @/binarytown | Implemented explainability tools |
+| Tuba Siddiqui | @/binarytown | Preprocessed and cleaned the dataset, handled categorical and numerical features|
 | Nana Li | @nanali126| Implemented explainability tools |
 
 ---
@@ -22,16 +22,29 @@
 🔗 [WiDS Datathon 2025 | Kaggle Competition Page](https://www.kaggle.com/competitions/widsdatathon2025/overview)
 
 ---
-
 ## **👩🏽‍💻 Setup & Execution**
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
+**Follow the instructions given below to clone the repository, set up the environment, and run the code**
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+### 1. Clone the Repository 
+To get a copy of the project, ytou need to run the following command in your terminal:
+
+'''bash
+git clone https://github.com/binarytown/Break-Through-Tech/WiDS_Datathon2025_Team_16.git
+cd WiDS_Datathon2025_Team_16
+'''
+
+### 2. Install dependencies 
+Once you've cloned the repository, install the required dependencies by running the following command:
+
+pip install -r requirements.txt
+
+This will help you in installing all the neccessary libraries to run the main code.
+
+
+### 3. Set up the Environment
+### 4. Access the Dataset(S)
+### 5. Run the notebook or scripts
 
 ---
 
