@@ -75,10 +75,25 @@ Data Science Skills Developed:
 * socio-demographic, emotions, and parenting information
 
 **Data exploration and preprocessing approaches**
-- ABCD
+1. One-Hot Encoding:
+   * Applied one-hot encoding to train_categorical_metadata by creating dummy variables.
+   * Combined the processed categorical dataset with the functional connectome dataset to create the final training dataset.
+2. Conversion of Integer Variables:
+   * Converted integer variables to categorical values where appropriate.
+3. Handling Missing Values:
+   * Filled null values in the training dataset with the mean of the respective columns.
+4. Feature Selection:
+   * Used logistic regression to identify important features.
 
-**Challenges and assumptions when working with the dataset(s)**
-- ABCD
+**Challenges and Assumptions**
+1. Data Integration:
+   * Assumed that the functional connectome dataset and the categorical metadata are compatible and can be merged without significant preprocessing.
+2. Handling Missing Data:
+   * Assumed that filling missing values with the mean is appropriate for the dataset and does not introduce significant bias.
+3. Feature Engineering:
+   * Assumed that converting integer variables to categorical values improves model performance.
+4. Model Assumptions:
+   * Assumed that logistic regression is a suitable method for feature selection given the nature of the dataset.
 
 **Potential visualizations to include:**
 
