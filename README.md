@@ -97,7 +97,10 @@ Data Science Skills Developed:
 
 **Potential visualizations to include:**
 
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+1. Barplots used to get important features
+![image](https://github.com/user-attachments/assets/abfe4f35-6b5d-49b1-a6ce-d3263de8918e)
+
+![image](https://github.com/user-attachments/assets/52e736e5-23c8-4652-a9ca-13717cffdb52)
 
 ---
 
