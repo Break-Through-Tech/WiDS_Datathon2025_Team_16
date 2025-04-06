@@ -108,9 +108,9 @@ Data Science Skills Developed:
 
 **Describe (as applicable):**
 
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+* Models we used were XGBoost, Multi-output classifier, and LightGBM Classifier
+* For feature selection, we used Logistic Regression to find top coefficients of ADHD and Sex
+* XGBoost Model was the most accurate of all the models we tried, with the mean cross-validations score = 0.67 at (n_estimators=100, learning_rate=0.5, max_depth=20). Upon tuning the learning rate to 0.7, the data was prone to overfitting and was similar for n_estimators to 200 or 300.
 
 ---
 
@@ -118,14 +118,21 @@ Data Science Skills Developed:
 
 **Describe (as applicable):**
 
-* Performance metrics (e.g., Kaggle Leaderboard score, F1-score)
-* How your model performed overall
-* How your model performed across different skin tones (AJL)
-* Insights from evaluating model fairness (AJL)
+* Our Kaggle Public Leaderboard score was 0.467!
+* Overall, our model performed very well on data, given the time and our initial issues to even set up the notebook, which gave us limited time to improve the accuracy of our model.
 
 **Potential visualizations to include:**
 
 * Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+* This is our XGBoost Model predictions head 
+![image](https://github.com/user-attachments/assets/2c12aff4-2c6d-466b-8c84-a3923bbe77ab)
+
+* The chart below shows Sex predictions made by XBG Model, where 0(Female) = 222, and 1(Male) = 82
+* (Note: For Kaggle, the values of 1 and 0 are vice-versa)
+
+![image](https://github.com/user-attachments/assets/d78ea641-969e-44f7-a473-98cb40a2aeec)
+
+
 
 ---
 
