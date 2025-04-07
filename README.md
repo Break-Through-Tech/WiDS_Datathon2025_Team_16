@@ -95,7 +95,6 @@ Data Science Skills Developed:
 4. Model Assumptions:
    * Assumed that logistic regression is a suitable method for feature selection given the nature of the dataset.
 
-**Potential visualizations to include:**
 
 1. Barplots used to get important features
 ![image](https://github.com/user-attachments/assets/abfe4f35-6b5d-49b1-a6ce-d3263de8918e)
@@ -117,7 +116,7 @@ Data Science Skills Developed:
 * Our Kaggle Public Leaderboard score was 0.467!
 * Overall, our model performed very well on data, given the time and our initial issues to even set up the notebook, which gave us limited time to improve the accuracy of our model.
 
-**Potential visualizations to include:**
+**Visualizations:**
 
 * Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
 * This is our XGBoost Model predictions head 
@@ -134,8 +133,6 @@ Data Science Skills Developed:
 
 ## **🖼️ Impact Narrative**
 
-**Answer the relevant questions below based on your competition:**
-
 1. What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?
    - ADHD is associated with distinct patterns of brain activity, which can vary between males and females.
    - Neuroimaging studies have identified differences in brain structure and activity. For example, areas like the corpus callosum and frontal  lobe, which are crucial for attention and executive functions, may be smaller or less active in individuals with ADHD.
@@ -150,8 +147,6 @@ Data Science Skills Developed:
 
 ## **🚀 Next Steps & Future Improvements**
 
-**Address the following:**
-
 * What are some of the limitations of your model?
   - A limitation of our model was the amount of features we were able to use. Our kernel kept dying if our data got too big, so we were not able to work with as many features as we wanted to. 
 * What would you do differently with more time/resources?
@@ -162,8 +157,6 @@ Data Science Skills Developed:
 ---
 
 ## **📄 References & Additional Resources**
-
-* Cite any relevant papers, articles, or tools used in your project
 
 Conversation. (2024, December 14). Abnormal patterns in brain waves may indicate ADHD, expert says. ScienceAlert.  https://www.sciencealert.com/abnormal-patterns-in-brain-waves-may-indicate-adhd-expert-says
 
