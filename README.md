@@ -106,8 +106,6 @@ Data Science Skills Developed:
 
 ## **🧠 Model Development**
 
-**Describe (as applicable):**
-
 * Models we used were XGBoost, Multi-output classifier, and LightGBM Classifier
 * For feature selection, we used Logistic Regression to find top coefficients of ADHD and Sex
 * XGBoost Model was the most accurate of all the models we tried, with the mean cross-validations score = 0.67 at (n_estimators=100, learning_rate=0.5, max_depth=20). Upon tuning the learning rate to 0.7, the data was prone to overfitting and was similar for n_estimators to 200 or 300.
@@ -115,8 +113,6 @@ Data Science Skills Developed:
 ---
 
 ## **📈 Results & Key Findings**
-
-**Describe (as applicable):**
 
 * Our Kaggle Public Leaderboard score was 0.467!
 * Overall, our model performed very well on data, given the time and our initial issues to even set up the notebook, which gave us limited time to improve the accuracy of our model.
@@ -140,11 +136,15 @@ Data Science Skills Developed:
 
 **Answer the relevant questions below based on your competition:**
 
-**WiDS challenge:**
-
 1. What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?
-2. How could your work help contribute to ADHD research and/or clinical care?
-
+   - ADHD is associated with distinct patterns of brain activity, which can vary between males and females.
+   - Neuroimaging studies have identified differences in brain structure and activity. For example, areas like the corpus callosum and frontal  lobe, which are crucial for attention and executive functions, may be smaller or less active in individuals with ADHD.
+   - Males with ADHD often exhibit more hyperactive and impulsive behaviors, while females tend to show more inattentive symptoms. This can lead to underdiagnosis in females, as their symptoms might be less disruptive and more easily overlooked.
+     
+3. How could your work help contribute to ADHD research and/or clinical care?
+   -  Our model, upon more refining, can help identify specific patterns and correlations between gender and ADHD symptoms, providing insights into how ADHD manifests differently in males and females. This can lead to more targeted research studies.
+   -  With a better understanding of how ADHD symptoms vary by gender, clinicians can develop more personalized treatment plans that address the specific needs of each individual.
+   -  The findings from this ML model can be used to develop educational tools for clinicians, helping them understand the gender-specific aspects of ADHD and improve their diagnostic practices.
 
 ---
 
@@ -164,5 +164,13 @@ Data Science Skills Developed:
 ## **📄 References & Additional Resources**
 
 * Cite any relevant papers, articles, or tools used in your project
+
+Conversation. (2024, December 14). Abnormal patterns in brain waves may indicate ADHD, expert says. ScienceAlert.  https://www.sciencealert.com/abnormal-patterns-in-brain-waves-may-indicate-adhd-expert-says
+
+Attention-Deficit / Hyperactivity Disorder articles. (2024, October 23). Attention-Deficit / Hyperactivity Disorder (ADHD). https://www.cdc.gov/adhd/articles/index.html
+
+Mandriota, M. (2022, April 6). ADHD in Women vs. Men: Does Gender Play a Role in Symptoms? Psych Central. https://psychcentral.com/adhd/adhd-and-gender
+
+Child Mind Institute. (2019, December 13). How ADHD differs in boys vs girls [Video]. YouTube. https://www.youtube.com/watch?v=7iEkealM9WY
 
 ---
