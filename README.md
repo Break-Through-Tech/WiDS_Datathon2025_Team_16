@@ -153,8 +153,11 @@ Data Science Skills Developed:
 **Address the following:**
 
 * What are some of the limitations of your model?
+  A limitation of our model was the amount of features we were able to use. Our kernel kept dying if our data got too big, so we were not able to work with as many features as we wanted to. 
 * What would you do differently with more time/resources?
+  We would spend more time on optimizing our model and figuring out how we could use more of the dataset. Since it took us so long to get our IDE set up we didn't have much time to do anything about the optimization. 
 * What additional datasets or techniques would you explore?
+We would figure out other ways to preprocess our data and combine it to make it more helpful in training our model. 
 
 ---
 
